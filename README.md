@@ -48,7 +48,7 @@ passportTitleGenerator.seed(456);
 Install it globally:
 
 ```shell
-$ npm install -g
+$ npm install -g passport-title-generator
 ```
 
 Then you can:
