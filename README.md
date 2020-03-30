@@ -23,19 +23,19 @@ passportTitleGenerator.nounPrime(7);
 
 for (var i = 0; i < 10; i++) {
   // generate and log pairs
-  console.log(passportTitleGenerator().join('-'));
+  console.log(passportTitleGenerator());
 }
 // console.logs ->
-//   lasting-meaning
-//   numerical-excerpt
-//   unresponsive-madman
-//   royal-haircut
-//   squeaky-schedule
-//   respectable-compressor
-//   northern-knife
-//   shrewd-tribute
-//   blank-volcano
-//   rhenish-periodical
+// Mistakenly Caught Decorating Fiend
+// Plucky Caretaker
+// Small-Fry Younger Brother
+// Untossable Sort
+// Casual Resident
+// Festive Person
+// Messy Ms. Popular
+// Plaza Lad
+// Single-Occupant Ground Traveler
+// Unpearable Fish
 
 // after you start generating pairs, you cannot change the seed or primes
 // otherwise you might end up with non-unique pairs
