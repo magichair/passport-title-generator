@@ -1,4 +1,4 @@
-# passport-title-generator [![Build Status](https://travis-ci.org/btford/adj-noun.svg?branch=master)](https://travis-ci.org/btford/adj-noun)
+# passport-title-generator [![Build Status](https://travis-ci.org/magichair/passport-title-generator.svg?branch=master)](https://travis-ci.org/magichair/passport-title-generator)
 
 Gives you a random title to use in Animal Crossing: New Horizons
 
