@@ -1,11 +1,11 @@
 var assert = require('assert')
-var adjNoun = require('./adj-noun');
+var passportTitleGenerator = require('./passport-title-generator');
 
-assert(adjNoun.seed(123));
+assert(passportTitleGenerator.seed(123));
 
-assert(adjNoun.adjPrime(3));
-assert(adjNoun.nounPrime(7));
+assert(passportTitleGenerator.adjPrime(3));
+assert(passportTitleGenerator.nounPrime(7));
 
-assert.deepEqual(adjNoun(), [ 'lasting', 'streamside' ]);
+assert.deepEqual(passportTitleGenerator(), [ 'lasting', 'streamside' ]);
 
-assert(adjNoun.seed(456) === false);
+assert(passportTitleGenerator.seed(456) === false);

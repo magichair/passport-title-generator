@@ -1,30 +1,29 @@
 {
-  "name": "adj-noun",
-  "version": "0.1.1",
-  "description": "Gives you a random adj-noun pair that you can use as a unique identifier",
-  "main": "adj-noun.js",
+  "name": "passport-title-generator",
+  "version": "0.0.1",
+  "description": "Gives you a random passport title to use in Animal Crossing: New Horizons",
+  "main": "passport-title-generator.js",
   "scripts": {
     "test": "node test.js"
   },
   "bin": {
-    "adj-noun": "cli.js"
+    "passport-title-generator": "cli.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/btford/adj-noun.git"
+    "url": "https://github.com/magichair/passport-title-generator.git"
   },
   "keywords": [
-    "identifier",
-    "unique",
-    "english",
-    "slug",
-    "adjective",
-    "noun"
+    "animal crossing",
+    "new horizons",
+    "animal crossing: new horizons",
+    "generator",
+    "randomizer"
   ],
-  "author": "Brian Ford <btford@umich.edu>",
+  "author": "John Ibsen <j.ibsen@projectfuse.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/btford/adj-noun/issues"
+    "url": "https://github.com/magichair/passport-title-generator/issues"
   },
-  "homepage": "https://github.com/btford/adj-noun"
+  "homepage": "https://github.com/magichair/passport-title-generator"
 }

@@ -1,30 +1,29 @@
-# adj-noun [![Build Status](https://travis-ci.org/btford/adj-noun.svg?branch=master)](https://travis-ci.org/btford/adj-noun)
+# passport-title-generator [![Build Status](https://travis-ci.org/btford/adj-noun.svg?branch=master)](https://travis-ci.org/btford/adj-noun)
 
-Gives you a random adj-noun pair that you can use as a unique identifier.
-Great for generating readable URLs.
+Gives you a random title to use in Animal Crossing: New Horizons
 
 ## Install
 
 ```shell
-$ npm install adj-noun
+$ npm install passport-title-generator
 ```
 
 ## Use
 
 ```javascript
-var adjNoun = require('adj-noun');
+var passportTitleGenerator = require('passport-title-generator');
 
 // seed it so your pairs are different than someone else using this lib
-adjNoun.seed(123);
+passportTitleGenerator.seed(123);
 // -> true
 
 // optionally you can provide primes to adjust how words are chosen:
-adjNoun.adjPrime(3);
-adjNoun.nounPrime(7);
+passportTitleGenerator.adjPrime(3);
+passportTitleGenerator.nounPrime(7);
 
 for (var i = 0; i < 10; i++) {
   // generate and log pairs
-  console.log(adjNoun().join('-'));
+  console.log(passportTitleGenerator().join('-'));
 }
 // console.logs ->
 //   lasting-meaning
@@ -40,7 +39,7 @@ for (var i = 0; i < 10; i++) {
 
 // after you start generating pairs, you cannot change the seed or primes
 // otherwise you might end up with non-unique pairs
-adjNoun.seed(456);
+passportTitleGenerator.seed(456);
 // -> false
 ```
 
@@ -55,14 +54,14 @@ $ npm install -g
 Then you can:
 
 ```shell
-$ adj-noun
+$ passport-title-generator
 royal-haircut
 ```
 
 You can also specify the number of unique names to generate:
 
 ```shell
-$ adj-noun 5
+$ passport-title-generator 5
 unlined octet
 luckier gospel
 wordy shading
@@ -75,8 +74,7 @@ It randomly seeds between runs with `Math.random()`.
 
 ## Word list
 
-The script for generating the word list uses [NLTK](http://www.nltk.org/).
-See `scripts/data.py` for more.
+Manual input - will update as I unlock more. Feel free to offer a PR for other titles I may have missed (or typos).
 
 ## See Also
 * [cat-names](https://github.com/sindresorhus/cat-names)
