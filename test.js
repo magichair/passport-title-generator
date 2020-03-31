@@ -6,6 +6,6 @@ assert(passportTitleGenerator.seed(123));
 assert(passportTitleGenerator.adjPrime(3));
 assert(passportTitleGenerator.nounPrime(7));
 
-assert.deepEqual(passportTitleGenerator(), [ 'Inexperienced', 'Grandma' ]);
+assert.deepEqual(passportTitleGenerator(), [ 'Crafty', 'Coast Dweller' ]);
 
 assert(passportTitleGenerator.seed(456) === false);
