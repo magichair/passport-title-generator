@@ -1,6 +1,6 @@
 {
   "name": "passport-title-generator",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Gives you a random passport title to use in Animal Crossing: New Horizons",
   "main": "passport-title-generator.js",
   "scripts": {
