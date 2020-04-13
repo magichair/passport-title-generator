@@ -20,6 +20,16 @@ function next () {
   ];
 }
 
+module.exports.originalData = require('./data.json');
+
+module.exports.newData = function (newData) {
+  current = 0;
+  data = newData;
+  ADJ_COUNT = data.adjs.length;
+  NOUN_COUNT = data.nouns.length;
+  return true;
+}
+
 // these options are only configurable before
 // you call `next` for the first time
 module.exports.seed = function (newSeed) {
